@@ -38,12 +38,10 @@ function App() {
   );
 
   return (
-    <div>
+    <div style={{display: 'flex', gap: '1rem', alignItems:'center'}}>
 
-
+      <img src={catGif} style={{objectFit: 'contain'}}/>
       <h1>{catFact}</h1>
-      <img src={catGif}/>
-
 
     </div>
   )
